@@ -1,11 +1,9 @@
 # Frontend de Practicas Usm
 
-Creado por:
+Diseñado por:
 
 Bastian Varas
-
 Ivan Oyarzun
-
 Cristobal Martinez
 
 
