@@ -7,7 +7,7 @@ Ivan Oyarzun
 Cristobal Martinez
 
 
-Link video de youtube:
+Link video de youtube: https://youtu.be/TNfNMchkGQA
 
 
 
