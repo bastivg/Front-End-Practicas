@@ -46,31 +46,35 @@ export const ListPractice = () => {
       <h1 className='page__title'>Practicas Disponibles</h1>
       <div className='page'>
         <NavBar />
+
         <div className='content'>
+
           <div className='left-content'>
             <div className='user-info'>
               <img src={Icono} height={100} alt='user-icon' />
-              <h3>Juan Carlos Bodoque 🧑‍💻</h3>
-              <h3>Calificación promedio actual: 3.18 (Bueno)</h3>
+              <h3>Juan Carlos Bodoque</h3>
             </div>
+          </div>
+
+          <div className='right-content'>
+            <div className='item-list-pdispon'>
+              <ul>
+                {items.map((item) => (
+                  <li key={item.id} className='list-item'>
+                    <div className='item-info'>
+                      <img src={item.image} width={50} height={50} />
+                          <h3>{item.name}</h3>
+                          <h4>Fecha: {item.date.toDateString()}</h4>
+                          {/* <button onClick={() => handleItemClick(item)}>Más información</button> */}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
         </div>
-        <div className='content'>
-            <div className='item-list'>
-                <ul>
-                    {items.map((item) => (
-                        <li key={item.id} className='list-item'>
-                        <div className='item-info'>
-                            <img src={item.image} width={50} height={50} />
-                            <h3>{item.name}</h3>
-                            <h4>Fecha: {item.date.toDateString()}</h4>
-                            <button onClick={() => handleItemClick(item)}>Más información</button>
-                        </div>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-            </div>
-        </div>
+
       </div>
     </div>
   );

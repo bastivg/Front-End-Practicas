@@ -38,14 +38,15 @@ export const InternalPage = () => {
 
   return (
     <div>
-      <h1 className='page__title'>Hipótesis 4</h1>
+      <h1 className='page__title'>Estado de mi práctica actual</h1>
       <div className='page'>
         <NavBar />
+
         <div className='content'>
           <div className='left-content'>
             <div className='user-info'>
               <img src={Icono} height={100} alt='user-icon' />
-              <h3>Juan Carlos Bodoque 🧑‍💻</h3>
+              <h3>Juan Carlos Bodoque</h3>
               <h3>Calificación promedio actual: 3.18 (Bueno)</h3>
               <h3>Estado del estudiante: aprobando</h3>
               <h3>Estado de la práctica: en curso (23% completada)</h3>
@@ -83,6 +84,7 @@ export const InternalPage = () => {
             </div>
             
           </div>
+          
         </div>
       </div>
     </div>

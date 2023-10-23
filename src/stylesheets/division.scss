@@ -9,9 +9,9 @@
   max-height: 67vh; // Establece la altura máxima a la que se mostrarán los elementos
   width: 500px;
   overflow-y: auto; // Agrega una barra de desplazamiento vertical si es necesario
-  border: 1px solid #ccc; // Agrega un borde para una apariencia limpia
   padding-left: 5px;
   padding-right: 5px;
+  border-radius: 5px;
 
   ul {
     list-style: none; // Elimina los puntos de la lista
@@ -40,6 +40,44 @@
   }
 }
 
+
+.item-list-pdispon {
+  // ... Tus estilos anteriores
+  max-height: 67vh; // Establece la altura máxima a la que se mostrarán los elementos
+  width: 100%;
+  overflow-y: auto; // Agrega una barra de desplazamiento vertical si es necesario
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+
+  ul {
+    list-style: none; // Elimina los puntos de la lista
+    padding: 0; // Elimina el espacio de relleno predeterminado de la lista
+
+    li {
+      margin: 10px 0; // Agrega un pequeño espacio entre elementos de la lista
+    }
+
+    .list-item {
+      display: flex;
+      align-items: center; // Centra verticalmente el contenido dentro de cada <li>
+      margin: 10px 0; // Espacio entre elementos de la lista
+
+      .item-info {
+        display: flex;
+        align-items: center; // Centra verticalmente el nombre y el botón
+        justify-content: space-between; // Coloca el botón a la derecha del nombre
+        width: 100%; // Asegura que el contenido ocupe todo el ancho
+      }
+
+      button {
+        margin-left: 10px; // Agrega espacio entre el nombre y el botón
+      }
+    }
+  }
+}
+
+
 .item-description {
   width: 67vh; // Establece el ancho fijo para el área de descripción
   height: 67vh; // Establece la altura máxima
@@ -66,6 +104,7 @@
   align-items: center;
   text-align: center;
   margin-left: 5px;
+  border-radius: 5px;
 }
 
 
@@ -73,9 +112,9 @@
 /* Estilos para el contenido izquierdo */
 .left-content {
   width: 40vh; /* 1/4 de la pantalla (100% / 4) */
-  background: #D9D9D9; /* Fondo gris */
+  background: #3b3a3a; /* Fondo gris D9D9D9*/
   padding: 20px;
-  color: black;
+  color: white;
   height: 67vh;
   border-radius: 10px;
   margin-right: 2px;
@@ -87,14 +126,15 @@
   width: 10px;
   height: 10px;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 /* Estilos para el contenido derecho */
 .right-content {
   width: 75%; /* Establece el ancho en un porcentaje (ajusta según tus necesidades) */
-  background: #D9D9D9; /* Fondo gris */
+  background: #3b3a3a; /* Fondo gris */
   padding: 20px;
-  color: black;
+  color: white;
   height: 67vh;
   border-radius: 10px;
   margin-left: 2px;

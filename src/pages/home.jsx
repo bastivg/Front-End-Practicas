@@ -5,7 +5,7 @@ import Icono   from '../assets/usuario.png'
 export const HomePage = () => {
   return (
     <div>
-      <h1 className='page__title'>Hipótesis 4 </h1>
+      <h1 className='page__title'> Inicio </h1>
 
       <div className='page'>
         <NavBar />
