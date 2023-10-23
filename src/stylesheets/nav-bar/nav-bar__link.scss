@@ -2,9 +2,11 @@
   display: inline-block;
   margin-right: 15px;
   padding: 8px;
+  text-decoration: none; /* Elimina el subrayado */ 
+  color: inherit; /* Restablece el color de texto */
 
   &--active {
-    background: #222;
-    color: white;
+    background: #222222;
+    color: 222222;
   }
 }
