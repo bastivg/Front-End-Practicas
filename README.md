@@ -1,18 +1,7 @@
-# Frontend de Practicas Usm
+# frontend-sample-app
+Basic Frontend Development Environment to start an app with Webpack
 
-Diseñado por:
-
-Bastian Varas
-Ivan Oyarzun
-Cristobal Martinez
-
-
-Link video de youtube: https://youtu.be/TNfNMchkGQA
-
-
-
-Para esta entrega, decidimos dejar 2 ramas principales que guardan vistas distintas alumno y profesor
-
+This repo includes `Webpack` to start an environment to build frontend views using `React`.
 
 ### Requirements
 - Node >= 16.13.1
@@ -20,15 +9,20 @@ Para esta entrega, decidimos dejar 2 ramas principales que guardan vistas distin
 
 ### Quick start
 
-Install dependences
+#Para correr
 
-```
-npm install
-```
+# Construir la imagen:
+#   docker build -t nombre-de-tu-imagen .
 
-Launch environment
+# Ejecutar el contenedor:
+#   docker run -p 8002:8002 nombre-de-tu-imagen
 
-```
-npm run dev
-```
+Now you can open http://localhost:8002
 
+### Packages included
+- [Webpack](https://webpack.js.org/)
+- [React Router](https://reactrouter.com/en/main)
+- [Material UI](https://mui.com/material-ui/getting-started/usage/)
+
+### About stylesheets
+- Sample stylesheets were written using the [BEM](https://getbem.com/) structure
