@@ -12,10 +12,12 @@ This repo includes `Webpack` to start an environment to build frontend views usi
 #Para correr
 
 # Construir la imagen:
-#   docker build -t nombre-de-tu-imagen .
+
+docker build -t nombre-de-tu-imagen .
 
 # Ejecutar el contenedor:
-#   docker run -p 8002:8002 nombre-de-tu-imagen
+
+docker run -p 8002:8002 nombre-de-tu-imagen
 
 Now you can open http://localhost:8002
 
