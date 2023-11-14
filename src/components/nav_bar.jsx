@@ -6,7 +6,7 @@ export const NavBar = () => {
     <nav className='nav-bar'>
       <NavLink
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/'
+        to='/alumno'
       >
         Inicio
       </NavLink>
